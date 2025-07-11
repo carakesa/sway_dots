@@ -10,3 +10,5 @@ for_window [class="steam_app.*"] 9
 for_window [window_type="dialog"] floating enable
 for_window [window_role="dialog"] floating enable
 for_window [app_id="thunar"] floating enable
+for_window [title="(?:Open|Save) (?:File|Folder|As)"] floating enable, resize set width 1030 height 710  ### Float general file management pop-ups 
+for_window [app_id="firefox" title="Picture-in-Picture"] floating enable, resize set 400 400 ### This should window Picture-in-Picture for YouTube, etc
