@@ -4,9 +4,21 @@
 
 # Touchpad configuration
 input type:touchpad {
+    accel_profile adaptive
+    pointer_accel 0.5
     dwt enabled
     tap disabled
     natural_scroll enabled
+}
+
+input type:pointer {
+  accel_profile    adaptive
+  natural_scroll   disabled
+  middle_emulation enabled
+  pointer_accel    0.8
+  scroll_factor    0.5
+  scroll_button    BTN_SIDE
+  scroll_method    on_button_down
 }
 
 # Enable numlock by default
