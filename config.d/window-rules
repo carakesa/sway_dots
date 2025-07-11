@@ -1,0 +1,12 @@
+assign [app_id="foot"] 1
+assign [app_id="firefox"] 2
+assign [class="discord"] 3
+assign [app_id="lutris"] 7
+assign [app_id="heroic"] 7
+assign [app_id="steam"] 7
+assign [app_id="proton"] 8
+for_window [instance="steam_app.*"] 9
+for_window [class="steam_app.*"] 9
+for_window [window_type="dialog"] floating enable
+for_window [window_role="dialog"] floating enable
+for_window [app_id="thunar"] floating enable
