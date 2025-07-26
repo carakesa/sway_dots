@@ -39,3 +39,7 @@ exec eos-welcome --startdelay=3
 
 # nwg-drawer
 exec_always nwg-drawer -r -c 7 -is 90 -mb 10 -ml 50 -mr 50 -mt 10
+
+# Gammastep with indicator
+exec gammastep-indicator &
+#exec gammastep ## Uncommment this line and comment the above to run without gui indicator
